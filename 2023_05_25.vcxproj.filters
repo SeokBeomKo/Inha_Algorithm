@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\2023_05_25">
+      <UniqueIdentifier>{a56a6155-d0db-4bbd-a04e-56a195f7837e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_05_26">
+      <UniqueIdentifier>{08c9f0c6-650b-41bb-ae35-9559d7788d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_01">
+      <UniqueIdentifier>{2c55ad24-b851-4eb6-8cad-6e8dca09e45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_02">
+      <UniqueIdentifier>{18fe251a-a2d7-4c79-a2e2-40e270a9a7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_05">
+      <UniqueIdentifier>{d9b65f03-7c22-4c33-9c7e-769898e48d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_07">
+      <UniqueIdentifier>{ff923892-da37-4e9a-b741-3b89eb084e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_08">
+      <UniqueIdentifier>{469da170-7caa-4946-a148-2e7363e9083f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_08\IntQueue">
+      <UniqueIdentifier>{2d346a98-3023-49d6-a2f7-8b9441f62339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_12">
+      <UniqueIdentifier>{ffe62473-1f0a-4968-9915-0940ec281438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_07\IntStack">
+      <UniqueIdentifier>{f2cff0aa-d508-4db9-969b-a200de77784e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_15">
+      <UniqueIdentifier>{c46b6f3e-7c07-4805-80bc-11b0a8a54d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2023_06_16">
+      <UniqueIdentifier>{f200ac33-25fb-404a-b8ef-35bda6ec5af8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2023_05_25.cpp">
+      <Filter>소스 파일\2023_05_25</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_05_26.cpp">
+      <Filter>소스 파일\2023_05_26</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_06_01.cpp">
+      <Filter>소스 파일\2023_06_01</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_06_02.cpp">
+      <Filter>소스 파일\2023_06_02</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_06_05.c">
+      <Filter>소스 파일\2023_06_05</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_06_07.c">
+      <Filter>소스 파일\2023_06_07</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_06_08.c">
+      <Filter>소스 파일\2023_06_08</Filter>
+    </ClCompile>
+    <ClCompile Include="IntQueue.c">
+      <Filter>소스 파일\2023_06_08\IntQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_06_12.cpp">
+      <Filter>소스 파일\2023_06_12</Filter>
+    </ClCompile>
+    <ClCompile Include="IntStack.c">
+      <Filter>소스 파일\2023_06_07\IntStack</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_06_15.cpp">
+      <Filter>소스 파일\2023_06_15</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_06_16.cpp">
+      <Filter>소스 파일\2023_06_16</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntQueue.h">
+      <Filter>소스 파일\2023_06_08\IntQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="IntStack.h">
+      <Filter>소스 파일\2023_06_07\IntStack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
