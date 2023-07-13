@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\2023_06_16">
       <UniqueIdentifier>{f200ac33-25fb-404a-b8ef-35bda6ec5af8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2023_07_13">
+      <UniqueIdentifier>{add0c2ff-f899-4f7d-8d78-89458fff8d32}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2023_05_25.cpp">
@@ -84,8 +87,14 @@
     <ClCompile Include="2023_06_15.cpp">
       <Filter>소스 파일\2023_06_15</Filter>
     </ClCompile>
-    <ClCompile Include="2023_06_16.cpp">
+    <ClCompile Include="nQueen.cpp">
       <Filter>소스 파일\2023_06_16</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_07_13.cpp">
+      <Filter>소스 파일\2023_07_13</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleLinkedList.cpp">
+      <Filter>소스 파일\2023_07_13</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +103,9 @@
     </ClInclude>
     <ClInclude Include="IntStack.h">
       <Filter>소스 파일\2023_06_07\IntStack</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleLinkedList.h">
+      <Filter>소스 파일\2023_07_13</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
