@@ -137,6 +137,8 @@
     <ClCompile Include="2023_06_08.c" />
     <ClCompile Include="2023_06_12.cpp" />
     <ClCompile Include="2023_06_15.cpp" />
+    <ClCompile Include="2023_07_17.cpp" />
+    <ClCompile Include="ArrayLinkedList.cpp" />
     <ClCompile Include="nQueen.cpp" />
     <ClCompile Include="IntQueue.c" />
     <ClCompile Include="IntStack.c" />
@@ -144,6 +146,7 @@
     <ClCompile Include="SingleLinkedList.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayLinkedList.h" />
     <ClInclude Include="IntQueue.h" />
     <ClInclude Include="IntStack.h" />
     <ClInclude Include="SingleLinkedList.h" />
