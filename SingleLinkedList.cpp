@@ -43,22 +43,25 @@ void SingleLinkedList::push_front(Node* node)
 
 void SingleLinkedList::pop_back()
 {
-	if (0 != m_size)
+	if (0 == m_size)	return;
+
+	m_size--;
+
+	if (1 == m_size)
 	{
-		Node* preIter = pHead->pNext;
-		Node* curIter = pHead;
-		while (NULL != curIter->pNext)
-		{
-			preIter = curIter;
-			curIter = curIter->pNext;
-		}
-		pTail = preIter;
-	}
-	else
-	{
+		pHead = nullptr;
+		pTail = nullptr;
 		return;
 	}
-	m_size--;
+
+	Node* preIter = pHead;
+	Node* curIter = pHead->pNext;
+	while (NULL != curIter->pNext)
+	{
+		preIter = curIter;
+		curIter = curIter->pNext;
+	}
+	pTail = preIter;
 }
 
 void SingleLinkedList::pop_front()
@@ -78,6 +81,13 @@ void SingleLinkedList::pop_num(int num)
 {
 	Node* preIter = pHead;
 	Node* curIter = pHead;
+
+	if (pHead->m_num == num)
+	{
+		pHead = pHead->pNext;
+		m_size--;
+		return;
+	}
 
 	for (int i = 0; i < m_size; i++)
 	{

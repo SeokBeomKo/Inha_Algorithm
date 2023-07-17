@@ -22,9 +22,7 @@ int main()
 {
 	SingleLinkedList* list = new SingleLinkedList();
 
-	Node* student1 = new Node{ 1,"a", nullptr };
-
-	int select;	
+	int		select;	
 
 	int		temp_num;
 	string	temp_name;
@@ -34,26 +32,28 @@ int main()
 	{
 		temp_num = 0;
 
-		cout << "1. 입력, 2. 삭제, 3. 전체 출력" << endl;
+		cout << endl << "1. 입력, 2. 삭제, 3. 전체 출력, 4. 종료" << endl;
 		cin >> select;
 
 		switch (select)
 		{
 		case 1:
-			cout << "번호, 이름 입력" << endl;
+			cout << endl << "번호, 이름 입력" << endl;
 			cin >> temp_num >> temp_name;
 
 			temp_node = new Node{temp_num, temp_name , nullptr};
 			list->push_back(temp_node);
 			break;
 		case 2:
-			cout << "삭제할 번호 입력" << endl;
+			cout << endl << "삭제할 번호 입력" << endl;
 			cin >> temp_num;
 
 			list->pop_num(temp_num);
 			break;
 		case 3:
+			cout << endl;
 			list->print();
+			cout << endl;
 			break;
 		default:
 			break;

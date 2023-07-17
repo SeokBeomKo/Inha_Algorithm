@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\2023_07_13">
       <UniqueIdentifier>{add0c2ff-f899-4f7d-8d78-89458fff8d32}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2023_07_17">
+      <UniqueIdentifier>{487d4c7f-6656-4798-a4f2-fffc5810aff3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2023_05_25.cpp">
