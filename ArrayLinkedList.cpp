@@ -134,3 +134,7 @@ void ArrayLinkedList::Print()
 		}
 	}
 }
+
+void ArrayLinkedList::Add()
+{
+}

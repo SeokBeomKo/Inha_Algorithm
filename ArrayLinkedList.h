@@ -33,5 +33,7 @@ public:
 	void Clear();
 	void PrintCurrent();
 	void Print();
+
+	void Add();
 };
 
