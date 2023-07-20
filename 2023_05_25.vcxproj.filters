@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\2023_07_19">
       <UniqueIdentifier>{5c706dd1-5727-40a7-92c3-576b09887dbe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2023_07_20">
+      <UniqueIdentifier>{76577e5a-8271-449b-a7f6-b157324165f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2023_05_25.cpp">
@@ -114,6 +117,12 @@
     <ClCompile Include="DoublyLinkedList.cpp">
       <Filter>소스 파일\2023_07_19</Filter>
     </ClCompile>
+    <ClCompile Include="2023_07_20.cpp">
+      <Filter>소스 파일\2023_07_20</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.cpp">
+      <Filter>소스 파일\2023_07_20</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntQueue.h">
@@ -130,6 +139,9 @@
     </ClInclude>
     <ClInclude Include="DoublyLinkedList.h">
       <Filter>소스 파일\2023_07_19</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>소스 파일\2023_07_20</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

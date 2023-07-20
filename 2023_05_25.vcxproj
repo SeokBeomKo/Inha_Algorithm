@@ -139,7 +139,9 @@
     <ClCompile Include="2023_06_15.cpp" />
     <ClCompile Include="2023_07_17.cpp" />
     <ClCompile Include="2023_07_19.cpp" />
+    <ClCompile Include="2023_07_20.cpp" />
     <ClCompile Include="ArrayLinkedList.cpp" />
+    <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="DoublyLinkedList.cpp" />
     <ClCompile Include="nQueen.cpp" />
     <ClCompile Include="IntQueue.c" />
@@ -149,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayLinkedList.h" />
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="DoublyLinkedList.h" />
     <ClInclude Include="IntQueue.h" />
     <ClInclude Include="IntStack.h" />
