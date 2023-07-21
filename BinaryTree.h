@@ -1,6 +1,7 @@
 #pragma once
 
-struct BinNode {
+struct BinNode 
+{
 	int			iData;
 
 	BinNode*	pParent = nullptr;
