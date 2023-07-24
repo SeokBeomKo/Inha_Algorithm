@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\2023_07_21">
       <UniqueIdentifier>{e1cad44e-1105-49a1-94d8-1c884b53fd6a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2023_07_24">
+      <UniqueIdentifier>{49827249-0785-4bce-afae-d4fafc61c6a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2023_05_25.cpp">
@@ -132,6 +135,15 @@
     <ClCompile Include="ChainHashTable.cpp">
       <Filter>소스 파일\2023_07_21</Filter>
     </ClCompile>
+    <ClCompile Include="2023_07_24.cpp">
+      <Filter>소스 파일\2023_07_24</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>소스 파일\2023_07_24</Filter>
+    </ClCompile>
+    <ClCompile Include="asd.cpp">
+      <Filter>소스 파일\2023_07_24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntQueue.h">
@@ -154,6 +166,9 @@
     </ClInclude>
     <ClInclude Include="ChainHashTable.h">
       <Filter>소스 파일\2023_07_21</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>소스 파일\2023_07_24</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

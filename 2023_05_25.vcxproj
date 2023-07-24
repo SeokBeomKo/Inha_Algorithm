@@ -141,7 +141,10 @@
     <ClCompile Include="2023_07_19.cpp" />
     <ClCompile Include="2023_07_20.cpp" />
     <ClCompile Include="2023_07_21.cpp" />
+    <ClCompile Include="2023_07_24.cpp" />
     <ClCompile Include="ArrayLinkedList.cpp" />
+    <ClCompile Include="asd.cpp" />
+    <ClCompile Include="AStar.cpp" />
     <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="DoublyLinkedList.cpp" />
     <ClCompile Include="ChainHashTable.cpp" />
@@ -153,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayLinkedList.h" />
+    <ClInclude Include="AStar.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="DoublyLinkedList.h" />
     <ClInclude Include="ChainHashTable.h" />
